@@ -16,7 +16,8 @@
         content: '';
         display: block;
       }
-      #Slider-{{ section.id }} .media .media-desktop {
+      #Slider-{{ section.id }} .media .media-desktop,
+      #Slider-{{ section.id }} .content-desktop {
         display: none;
       }
     }
@@ -28,7 +29,8 @@
         content: '';
         display: block;
       }
-      #Slider-{{ section.id }} .media .media-mobile {
+      #Slider-{{ section.id }} .media .media-mobile,
+      #Slider-{{ section.id }} .content-mobile {
         display: none;
       }
     }
@@ -206,10 +208,10 @@
               </div>
             {%- endif -%}
             {% if block.settings.content_html != blank %}
-              {{ block.settings.content_html }}
+              <div class="content-desktop">{{ block.settings.content_html }}</div>
             {% endif %}
             {% if block.settings.mobile_content_html != blank %}
-              {{ block.settings.mobile_content_html }}
+              <div class="content-mobile">{{ block.settings.mobile_content_html }}</div>
             {% endif %}
           </div>
         </div>

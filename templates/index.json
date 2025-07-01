@@ -18,17 +18,19 @@
             "image": "shopify://shop_images/H1_desktop.jpg",
             "image_mobile": "shopify://shop_images/H1_mobile.jpg",
             "image_overlay_opacity": 0,
-            "heading": "Image slide",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://collections/new-arrivals",
             "button_style_secondary": false,
+            "content_html": "<div style=\"font-size: 3.5vw !important; font-family: Times !important; line-height: 120%; letter-spacing: 0; font-style: italic;\">Enliven 2025</div>\n  <p class=\"uppercase\" style=\"font-size: 2vw; font-family: serif; margin-bottom: 1%;\">With The Treasures of<br/>Shen Yun</p>",
+            "mobile_content_html": "<div style=\"color: #121212; font-size: 36px !important; font-family: Times !important; line-height: 120%; letter-spacing: 0; font-style: italic;\">Enliven 2025</div>\n  <p style=\"color: #121212; font-size: 17px; font-family: serif;\">With The Treasures of Shen Yun</p>",
             "show_text_box": true,
             "box_align": "middle-right",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
-            "color_scheme": "scheme-1"
+            "color_scheme": "scheme-6c37bd54-410a-43a9-b5ce-5ae763357aa5"
           }
         },
         "slide_hkgdFG": {
@@ -37,17 +39,19 @@
             "image": "shopify://shop_images/H3_desktop.jpg",
             "image_mobile": "shopify://shop_images/H3_mobile.jpg",
             "image_overlay_opacity": 0,
-            "heading": "Image slide",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://collections/jewelry",
             "button_style_secondary": false,
+            "content_html": "<div class=\"uppercase\" style=\"font-size: 2vw; font-family: serif; margin-bottom: 1%; color: #9E4646;\">Discover the beauty</div>\n<div class=\"uppercase\" style=\"font-size: 2vw; font-family: serif;color: #9E4646;\">of the Lotus</div>",
+            "mobile_content_html": "<p class=\"uppercase\" style=\"color: #9E4646; font-size: 20px; font-family: serif;\">Discover the beauty<br/>of the lotus</p>",
             "show_text_box": true,
             "box_align": "middle-right",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
-            "color_scheme": ""
+            "color_scheme": "scheme-812501f1-9ed2-444f-bc29-ff7455ff902a"
           }
         },
         "slide_kLtGMG": {
@@ -56,17 +60,19 @@
             "image": "shopify://shop_images/H2_desktop.jpg",
             "image_mobile": "shopify://shop_images/H2_mobile.jpg",
             "image_overlay_opacity": 0,
-            "heading": "Image slide",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify://collections/ties-scarves",
             "button_style_secondary": false,
+            "content_html": "<div style=\"font-size: 3.1vw !important; font-family: Times, 'Times New Roman', serif !important; line-height: 120%; letter-spacing: 0; font-style: italic;\">Fine Italian Scarves</div>\n<div style=\"font-size: 2.2vw; font-family: serif;\">Worn by 3Musketeers</div>",
+            "mobile_content_html": "<div style=\"color: #121212; font-size: 30px !important; font-family: Times, 'Times New Roman', serif !important; line-height: 120%; letter-spacing: 0; font-style: italic;\">Fine Italian Scarves</div>\n  <p style=\"color: #121212; font-size: 17px; font-family: serif; margin-bottom: 4.5%;\">Worn by 3Musketeers</p>",
             "show_text_box": true,
             "box_align": "middle-right",
             "text_alignment": "center",
             "text_alignment_mobile": "center",
-            "color_scheme": "scheme-1"
+            "color_scheme": "scheme-6c37bd54-410a-43a9-b5ce-5ae763357aa5"
           }
         }
       },
@@ -80,7 +86,7 @@
         "layout": "full_bleed",
         "slide_height": "adapt_image",
         "slider_visual": "counter",
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "image_behavior": "none",
         "show_text_below": true,
