@@ -8,7 +8,11 @@
       #Slider-{{ section.id }}::before,
       #Slider-{{ section.id }} .media::before,
       #Slider-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before {
-        padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image_mobile.aspect_ratio | times: 100 }}%;
+        {% if section.blocks.first.settings.image_mobile != blank %}
+          padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image_mobile.aspect_ratio | times: 100 }}%;
+        {% else %}
+          padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}%;
+        {% endif %}
         content: '';
         display: block;
       }
@@ -201,6 +205,12 @@
                 </a>
               </div>
             {%- endif -%}
+            {% if block.settings.content_html != blank %}
+              {{ block.settings.content_html }}
+            {% endif %}
+            {% if block.settings.mobile_content_html != blank %}
+              {{ block.settings.mobile_content_html }}
+            {% endif %}
           </div>
         </div>
       </div>
@@ -492,6 +502,16 @@
           "id": "button_style_secondary",
           "label": "t:sections.slideshow.blocks.slide.settings.secondary_style.label",
           "default": false
+        },
+        {
+          "type": "liquid",
+          "id": "content_html",
+          "label": "Content Html"
+        },
+        {
+          "type": "liquid",
+          "id": "mobile_content_html",
+          "label": "Mobile Content Html"
         },
         {
           "type": "header",
